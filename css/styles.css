@@ -18,7 +18,7 @@ body{
     height:60px;
     justify-self: center;
     align-self: center;
-
+    margin-top: 20px;
     
 }
 .whiteback{
@@ -28,8 +28,42 @@ body{
     font-weight: bold;
     text-align:center;
 }
+.h3{
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-    
-    
+}
+.first{
+    grid-column-start: 1;
+    background-color:#25975A;
+    width: 100px;
+    height:40px;
+    justify-self: center;
+    align-self: center;
+}
+.second{
+    grid-column-start: 2;
+    background-color:#25975A;
+    width: 100px;
+    height:40px;
+    justify-self: center;
+    align-self: center;
 
+}
+.third{
+    grid-column-start: 3;
+    background-color:#25975A;
+    width: 100px;
+    height:40px;
+    justify-self: center;
+    align-self: center;
+    
+}
+.gpa{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align:center;
 }
